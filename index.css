@@ -8,7 +8,7 @@ body{
 
 .img{
     margin: 10px;
-    float: left;
+   
     display: inline-block;
 
 }
@@ -21,4 +21,13 @@ body{
 }
 .fot{
     text-align: center;
+    background-color: #1a1a1a;
+    padding: 1px;
+    color: white;
+    
+}
+footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
 }

@@ -31,3 +31,9 @@ footer {
     bottom:0;
     width: 100%;
 }
+
+@media (max-width: 1024px) {
+    .navbar-collapse.is--active {
+        display: block;
+    }
+}

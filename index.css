@@ -1,5 +1,5 @@
 body{
-    background-color:#F1F0B7;
+    background-color:rgba(223, 228, 230, 0.356);
 }
 .font-titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -8,9 +8,7 @@ body{
 
 .img{
     margin: 10px;
-   
     display: inline-block;
-
 }
 .cont{
     margin-top: 30px;
@@ -19,15 +17,21 @@ body{
     margin-left: 30px;
     padding: 10px; 
 }
-.fot{
+.fotR{
     text-align: center;
-    background-color: #1a1a1a;
-    padding: 1px;
+    background-color: #1B3E62;
+    padding-top: 30px;
+    padding-bottom: 2px;
     color: white;
     
 }
-footer {
-    
+.fot a{
+    color: black;
+} 
+.fot p{
+    color: black;
+}
+footerR{
     bottom:0;
     width: 100%;
 }
@@ -63,4 +67,34 @@ footer {
 .img-curso{
     margin-left: 100px;
     margin: 10px;
+}
+.espacoLinha{
+    margin-bottom: 100px;
+}
+.espacoLinhaCima{
+    margin-top: 100px;
+}
+.fundoPrincipal{
+    background-color: rgb(211, 211, 211 , 0.2);
+    z-index: 1;
+}
+.fundo2{
+    background-color: rgba(17, 16, 16, 0.2);
+    z-index: 1;
+}
+.fundoRodape{
+    background-color:  rgba(17, 16, 16, 0.2);
+    z-index: 1;
+}
+.navbar-brand:hover{
+    color:  white!important; 
+}
+.pequenoEspaco{
+    padding: 5px;
+}
+.corLetras{
+    color: #2A7BCB !important;
+}
+.corLetras:hover{
+    color: black !important;
 }

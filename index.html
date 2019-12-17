@@ -4,18 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="shortcut icon" href="img/web.png">
+    <link rel="stylesheet" href="aos-master/dist/aos.css">
     <title>André Kancelskis</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+
         <a class="navbar-brand" href="index.html">Currículo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -23,47 +23,244 @@
                 <a class="navbar-brand" href="certificados.html">Certificados</a>
 
                 <a class="navbar-brand" href="https://www.linkedin.com/in/andr%C3%A9-kancelskis-0a4146175/">
-                    <img src="img/linkedin.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Linkedin
+                    <img src="img/linkedin.png" width="30" height="30" class="d-inline-block align-top" alt=""> Linkedin
                 </a>
                 <a class="navbar-brand" href="https://github.com/andrekancelskis">
-                    <img src="img/github.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                    GitHub
+                    <img src="img/github.png" width="30" height="30" class="d-inline-block align-top" alt=""> GitHub
                 </a>
             </div>
         </div>
+
     </nav>
-    <section class="cont">
-        <h1 class="font-titulo">
-            Currículo
-        </h1>
-        <section class="img">
-            <img src="img/andre.jpg" width="80px" alt="">
-        </section>
-        <div class="curriculo">
-            <ul>
-                <ol> <br>Área de Interesse<br> Estagio - Tecnologia da Informação</ol>
-                <ol><br> Formação Acadêmica<br>Tecnólogo Análise e Desenvolvimento de Sistema <br><a
-                        href="https://www.fiap.com.br/graduacao/tecnologo/analise-e-desenvolvimento-de-sistemas/"
-                        target="_blank">FIAP</a> – 2° Semestre</ol>
-                <ol> <br>Habilidades e competências <br> Linguagens - HTML, CSS, Java Script, Java, Bootstrap . <br>
-                    Ferramentas e aplicativos - Eclipse, VSC, sublime, SQLdeveloper, GitHub.<br>Excel, Word, Windows,
-                    Power Point, Outlook, Rede Social. </ol>
-                <ol><br>Idiomas<br> Inglês – Técnico<br> Espanhol – Básico</ol>
-                <ol><br> Atividades Complementares<br>- Desenvolvedor Web Front-End.<br>Digital Innovation One - 10/2019.
-                    <br>- Web Design. <br>Udemy -  05/2019.
-                    <br>- Beginners Developer.<br> 4linux – 09/2019.<br><a href="certificados.html">Certificados</a>
-                </ol>
-                <ol><br> Projetos<br> Sistemas de estudos - chatbot via voz, Watson Assintant- IBM.<br> mar de 2019 – o
-                    momento</ol>
-            </ul>
+    <div class="container">
+
+        <!--linhas para ficar um do lado do outro-->
+        <div class="row espacoLinha espacoLinhaCima">
+            <div class="col-md-2">
+                <!-- vazio -->
+            </div>
+            <div class="card col-sm-8" data-aos="zoom-in">
+                <div class="row no-gutters">
+                    <div class="col-sm-3">
+                        <img src="img/andre.jpg" class="card-img" alt="Foto perfil">
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="card-body">
+                            <h5 class="card-title">André Kancelskis</h5>
+                            <p class="card-text">Bem vindo, uma pequena apresentação do meu currículo e informações sobre minhas experiencias e atividades realizados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <!-- vazio -->
+            </div>
+
         </div>
-        </section>
-    <footer class="fot">
-        <p>Desenvolvido por André Kancelskis Todos Direitos Reservados ©</p>
-    </footer>
+
+        <div class="card col-sm-12 fundoPrincipal">
+            <div class="row espacoLinha espacoLinhaCima">
+                <div class="col-sm-2">
+                    <!-- vazio -->
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" data-aos="fade-right">
+                        <div class="card-body">
+                            <h5 class="card-title">Área de Interesse</h5>
+                            <p class="card-text">Tecnologia da Informação - IT</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" data-aos="fade-left">
+                        <div class="card-body">
+                            <h5 class="card-title">Formação Acadêmica</h5>
+                            <p class="card-text">Tecnólogo Análise e Desenvolvimento de Sistema
+                                <a class="corLetras" href="https://www.fiap.com.br/" target="_blank">FIAP</a> – 2° Semestre</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <!-- vazio -->
+                </div>
+            </div>
+        </div>
+
+        <div class="card col-sm-12 fundo2 espacoLinha espacoLinhaCima espacoDentro">
+            <div class="row">
+                <div class="col-sm-1">
+                    <!-- vazio -->
+                </div>
+                <div class="col-sm-10">
+                    <div class="espacoLinhaCima card" data-aos="fade-right">
+                        <div class="card-body">
+                            <h5 class="card-title">Experiencia</h5>
+                            <p class="card-text">Experiencias atuando na área de TI.</p>
+                            <div class="accordion col-sm-12" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                  <button class="btn btn-link corLetras" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Techne - Altualmente
+                                  </button>
+                                </h2>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Atuando como estagiario, utilizando sistema do Watson Assintant para desenvolver projetos com ChatBot´s atraves da IDE do
+                                            <a class="corLetras" href="https://www.cronapp.io/" target="_blank"> cronapp</a>.
+                                            <br> Empresa <a class="corLetras" href="https://techne.com.br/" target="_blank">Techne</a>.
+                                            <br>nov-2019.
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed corLetras" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Rica Festa
+                                  </button>
+                                </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Analista de Sistemas, realizando tarefas para normalização de dados da loja, integração para novo sistemas e intregação para site ecommerce.
+                                            <br> out-2019/nov-2019.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1">
+                    <!-- vazio -->
+                </div>
+                <div class="col-sm-10">
+                    <div class="espacoLinhaCima card" data-aos="fade-left">
+                        <div class="card-body">
+                            <h5 class="card-title">Projetos</h5>
+                            <p class="card-text">Projetos realizados.</p>
+                            <div class="accordion col-sm-12" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="heading3">
+                                        <h2 class="mb-0">
+                                  <button class="btn btn-link corLetras" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                    Sistemas de estudos
+                                  </button>
+                                </h2>
+                                    </div>
+
+                                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Chatbot por voz, Watson Assintant- IBM. mar-2019/out-2019.
+                                            <a class="corLetras" href="https://github.com/andrekancelskis/projeto-IBM-chatbot" target="_blank">veja.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1">
+                    <!-- vazio -->
+                </div>
+                <div class="col-sm-10">
+                    <div class="espacoLinhaCima card espacoLinha" data-aos="fade-right">
+                        <div class="card-body">
+                            <h5 class="card-title">Habilidades e competências</h5>
+                            <div class="accordion col-sm-12" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="heading4">
+                                        <h2 class="mb-0">
+                                  <button class="btn btn-link corLetras" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                    Linguagens
+                                  </button>
+                                </h2>
+                                    </div>
+
+                                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            HTML, CSS, Java Script, Java, Bootstrap, SQL.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="heading5">
+                                        <h2 class="mb-0">
+                                  <button class="btn btn-link corLetras" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                    Ferramentas e aplicativos
+                                  </button>
+                                </h2>
+                                    </div>
+
+                                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Eclipse, VSC, sublime, SQLdeveloper, GitHub.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="heading6">
+                                        <h2 class="mb-0">
+                                  <button class="btn btn-link corLetras" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                    Veja Mais.
+                                  </button>
+                                </h2>
+                                    </div>
+
+                                    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Excel, Word, Windows, Power Point, Outlook, Redes Sociais.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <!-- vazio -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card col-sm-12 fundoRodape pequenoEspaco">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="aqui col-sm-6">
+                <footer class="fot">
+                    <a class="corLetras" href="mailto:andrekancelskis14@gmail.com?Subject=Contato Site" target="_top">Email - andrekancelskis14@gmail.com</a>
+                    <p>Desenvolvido por André Kancelskis Todos Direitos Reservados ©</p>
+                </footer>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+    <script src="aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
     <script type="text/javascript" src="https://cronchatcronapp.cronapp.io/get-chat?token=827258318:AAGGfzWc8eNYi2JinfIN3MTMbHzUh2beUrs"></script>
+
 </body>
 
 </html>

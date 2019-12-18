@@ -1,8 +1,9 @@
 *{
-    font-family: ;
+    font-family: oi;
 }
 body{
     background-color:#397F9F;
+    background-color:rgb(253, 253, 253);
 }
 .font-titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,19 +20,30 @@ body{
     margin-left: 30px;
     padding: 10px; 
 }
-.fotR{
-    text-align: center;
-    background-color: #1B3E62;
-    padding-top: 30px;
-    padding-bottom: 2px;
-    color: white;
-    
-}
 .fot a{
     color: black;
 } 
 .fot p{
     color: black;
+}
+@media (max-width: 1024px) {
+    .navbar-collapse.is--active {
+        display: block;
+    }
+}
+@keyframes bounce{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
 }
 .btn-pula{
     background: #007bff;
@@ -54,10 +66,12 @@ body{
 }
 .fundoPrincipal{
     background-color: rgb(211, 211, 211 , 0.2);
+    background-color: rgb(57,127,159, 0.5);
     z-index: 1;
 }
 .fundo2{
     background-color: rgba(17, 16, 16, 0.2);
+    background-color: rgb(57,127,159, 0.2);
     z-index: 1;
 }
 .fundoRodape{
@@ -79,6 +93,9 @@ body{
 .corLetrasFoter:hover{
     color: white !important;
 }
+.corLetrasFoter2{
+    color: rgb(133, 128, 128) !important;
+}
 .corLetras:hover{
     color: black !important;
 }
@@ -96,7 +113,6 @@ body{
 }
 .corBtn{
     background-color: rgb(100, 92, 92);
-    border: 2px rebeccapurple;
 }
 .fa-bars{
     font-size: 35px;
@@ -106,4 +122,12 @@ body{
 .fa-sort-down{
     font-size: 30px;
     color: white;
+}
+@font-face {
+    font-family: oi;
+    src: url(https://fonts.google.com/specimen/Girassol);
+}
+.direita{
+    float: right;
+    clear: both;
 }

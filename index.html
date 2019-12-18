@@ -8,25 +8,28 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="shortcut icon" href="img/web.png">
     <link rel="stylesheet" href="aos-master/dist/aos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>André Kancelskis</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+    <nav class="navbar navbar-expand-md  sticky-top corNav">
+        <a class="navbar-brand corFonteCabecalho" href="index.html">Currículo</a>
+        <button class="navbar-toggler corBtn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 
-        <a class="navbar-brand" href="index.html">Currículo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-sort-down"></i>
             <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="navbar-brand" href="certificados.html">Certificados</a>
+                <a class="navbar-brand corFonteCabecalho" href="certificados.html"> Certificados</a>
 
-                <a class="navbar-brand" href="https://www.linkedin.com/in/andr%C3%A9-kancelskis-0a4146175/">
-                    <img src="img/linkedin.png" width="30" height="30" class="d-inline-block align-top" alt=""> Linkedin
+                <a class="navbar-brand corFonteCabecalho" href="https://www.linkedin.com/in/andr%C3%A9-kancelskis-0a4146175/">
+                    <i class="fab fa-linkedin-in"></i> Linkedin
                 </a>
-                <a class="navbar-brand" href="https://github.com/andrekancelskis">
-                    <img src="img/github.png" width="30" height="30" class="d-inline-block align-top" alt=""> GitHub
+                <a class="navbar-brand corFonteCabecalho" href="https://github.com/andrekancelskis">
+                    <i class="fab fa-github"></i> GitHub
                 </a>
             </div>
         </div>
@@ -58,38 +61,40 @@
             </div>
 
         </div>
+    </div>
 
-        <div class="card col-sm-12 fundoPrincipal">
-            <div class="row espacoLinha espacoLinhaCima">
-                <div class="col-sm-2">
-                    <!-- vazio -->
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" data-aos="fade-right">
-                        <div class="card-body">
-                            <h5 class="card-title">Área de Interesse</h5>
-                            <p class="card-text">Tecnologia da Informação - IT</p>
+    <div class="card col-sm-12 fundoPrincipal">
+        <div class="row espacoLinha espacoLinhaCima">
+            <div class="col-sm-2">
+                <!-- vazio -->
+            </div>
+            <div class="col-sm-4">
+                <div class="card" data-aos="fade-right">
+                    <div class="card-body">
+                        <h5 class="card-title">Área de Interesse</h5>
+                        <p class="card-text">Tecnologia da Informação - IT</p>
 
-                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card" data-aos="fade-left">
-                        <div class="card-body">
-                            <h5 class="card-title">Formação Acadêmica</h5>
-                            <p class="card-text">Tecnólogo Análise e Desenvolvimento de Sistema
-                                <a class="corLetras" href="https://www.fiap.com.br/" target="_blank">FIAP</a> – 2° Semestre</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-2">
-                    <!-- vazio -->
                 </div>
             </div>
-        </div>
+            <div class="col-sm-4">
+                <div class="card" data-aos="fade-left">
+                    <div class="card-body">
+                        <h5 class="card-title">Formação Acadêmica</h5>
+                        <p class="card-text">Tecnólogo Análise e Desenvolvimento de Sistema
+                            <a class="corLetras" href="https://www.fiap.com.br/" target="_blank">FIAP</a> – 2° Semestre</p>
 
-        <div class="card col-sm-12 fundo2 espacoLinha espacoLinhaCima espacoDentro">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <!-- vazio -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="card col-sm-12 fundo2 espacoLinha espacoLinhaCima">
             <div class="row">
                 <div class="col-sm-1">
                     <!-- vazio -->
@@ -191,7 +196,14 @@
 
                                     <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            HTML, CSS, Java Script, Java, Bootstrap, SQL.
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item"><img src="img/htmlI.png" width="28" height="28" alt=""> HTML </li>
+                                                <li class="list-group-item"><img src="img/cssI.png" width="35" height="35" alt="">CSS</li>
+                                                <li class="list-group-item"><img src="img/jsI.png" width="35" height="35" alt="">Java Script</li>
+                                                <li class="list-group-item"><img src="img/javaI.png" alt="">Java</li>
+                                                <li class="list-group-item"><img src="img/BotsI.png" width="30" height="30" alt=""> Bootstrap</li>
+                                                <li class="list-group-item"><img src="img/sqlI.png" width="30" height="30" alt=""> SQL</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -206,7 +218,14 @@
 
                                     <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            Eclipse, VSC, sublime, SQLdeveloper, GitHub.
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item"><img src="img/eclipseI.png" width="32" height="32" alt="">Eclipse </li>
+                                                <li class="list-group-item"><img src="img/vscI.png" width="30" height="30" alt=""> VSC</li>
+                                                <li class="list-group-item"><img src="img/sublimeI.png" width="35" height="35" alt="">sublime</li>
+                                                <li class="list-group-item"><img src="img/cronaapI.png" width="30" height="30" alt="">Cronapp</li>
+                                                <li class="list-group-item"><img src="img/github.png" width="28" height="28" alt=""> GitHub</li>
+                                                <li class="list-group-item"><img src="img/sqlI.png" width="30" height="30" alt=""> SQLdeveloper</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -236,12 +255,12 @@
         </div>
     </div>
 
-    <div class="card col-sm-12 fundoRodape pequenoEspaco">
+    <div class="card col-sm-12 fundoRodape pequenoEspaco corNav">
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="aqui col-sm-6">
                 <footer class="fot">
-                    <a class="corLetras" href="mailto:andrekancelskis14@gmail.com?Subject=Contato Site" target="_top">Email - andrekancelskis14@gmail.com</a>
+                    <a class="corLetrasFoter" href="mailto:andrekancelskis14@gmail.com?Subject=Contato Site" target="_top">Email - andrekancelskis14@gmail.com</a>
                     <p>Desenvolvido por André Kancelskis Todos Direitos Reservados ©</p>
                 </footer>
                 <div class="col-sm-3"></div>

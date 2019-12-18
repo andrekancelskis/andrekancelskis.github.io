@@ -1,11 +1,13 @@
+*{
+    font-family: ;
+}
 body{
-    background-color:rgba(223, 228, 230, 0.356);
+    background-color:#397F9F;
 }
 .font-titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 15px ;
 }
-
 .img{
     margin: 10px;
     display: inline-block;
@@ -30,30 +32,6 @@ body{
 } 
 .fot p{
     color: black;
-}
-footerR{
-    bottom:0;
-    width: 100%;
-}
-
-@media (max-width: 1024px) {
-    .navbar-collapse.is--active {
-        display: block;
-    }
-}
-@keyframes bounce{
-    0%, 20%, 60%, 100%{
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-    40%{
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
-    }
-    80%{
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
 }
 .btn-pula{
     background: #007bff;
@@ -93,8 +71,39 @@ footerR{
     padding: 5px;
 }
 .corLetras{
-    color: #2A7BCB !important;
+    color: #01a0e8 !important;
+}
+.corLetrasFoter{
+    color: #7c9baa !important;
+}
+.corLetrasFoter:hover{
+    color: white !important;
 }
 .corLetras:hover{
     color: black !important;
+}
+.corNav{
+    background-color: #142C37;
+}
+.corFonteCabecalho{
+    color: #7c9baa !important;
+}
+.fa-linkedin-in{
+    color: white;
+}
+.fa-github{
+    color: white;
+}
+.corBtn{
+    background-color: rgb(100, 92, 92);
+    border: 2px rebeccapurple;
+}
+.fa-bars{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.fa-sort-down{
+    font-size: 30px;
+    color: white;
 }

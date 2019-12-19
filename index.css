@@ -120,6 +120,17 @@ body{
 .fa-github{
     color: white;
 }
+.fa-github-square{
+    font-size: 30px;
+    color: grey;
+}
+.fa-linkedin{
+    font-size: 30px;
+    color: grey;
+}
+.fa-folder-plus{
+    font-size: 22px;
+}
 .corBtn{
     background-color: rgb(100, 92, 92);
 }

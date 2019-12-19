@@ -109,7 +109,7 @@ body{
     color: black !important;
 }
 .corNav{
-    background-color: #142C37;
+    background-color: #142C37; 
 }
 .corFonteCabecalho{
     color: #7c9baa !important;
@@ -132,12 +132,15 @@ body{
     font-size: 22px;
 }
 .corBtn{
-    background-color: rgb(100, 92, 92);
+    background-color: #7c9baa;
 }
 .fa-bars{
     font-size: 35px;
     text-align: center;
-    color: white;
+    color: #7c9baa;
+    margin-top: 2px;
+    margin-left: -32px;
+    
 }
 .fa-sort-down{
     font-size: 30px;

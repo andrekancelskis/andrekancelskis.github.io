@@ -74,8 +74,8 @@ body{
     margin-right: 10px;
 }
 .fundoPrincipal{
-    background-color: rgb(211, 211, 211 , 0.2);
-    background-color: rgb(57,127,159, 0.5);
+    background-color: rgb(211, 211, 211 , 0.5);
+ 
     z-index: 1;
 }
 .fundo2{

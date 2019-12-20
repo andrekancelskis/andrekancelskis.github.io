@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="aos-master/dist/aos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>André Kancelskis</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md  sticky-top corNav">
+    <nav class="navbar navbar-expand-md  sticky-top corNav" id="menu">
         <a class="navbar-brand corFonteCabecalho" href="index.html">Currículo</a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,6 +33,8 @@
             </div>
         </div>
     </nav>
+    
+    
     <div class="container">
         <div class="row espacoLinha espacoLinhaCima">
             <div class="col-md-2">
@@ -40,7 +43,7 @@
             <div class="card col-sm-8" data-aos="zoom-in">
                 <div class="row no-gutters">
                     <div class="col-sm-3">
-                        <img src="img/andre.jpg" class="card-img" alt="Foto perfil">
+                        <img src="img/andreerfil.jpg" class="card-img" alt="Foto perfil">
                     </div>
                     <div class="col-sm-9">
                         <div class="card-body">
@@ -55,6 +58,38 @@
             </div>
         </div>
     </div>
+
+    <div class="col-sm-12 fundoMenuSecundario">
+
+        <div class="row text-center">
+            <div class="col-sm-4 divTeste" data-aos="zoom-in">
+            <a  class="mudaCorMenu2 removerDecoracao " href="index.html#experiencia">
+                <div class="divTeste col-sm-12">
+                  EXPERIÊNCIA
+                </div>
+            </a>
+            </div>
+
+            <div class="col-sm-4 divTeste" data-aos="zoom-in">
+            <a  class="mudaCorMenu2 removerDecoracao  "  href="index.html#projetos">
+                <div class="divTeste col-sm-12">
+                    PROJETOS
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm-4 divTeste" data-aos="zoom-in">
+            <a class="mudaCorMenu2 removerDecoracao"  href="index.html#habilidades">
+                <div class="divTeste col-sm-12">
+                 HABILIDADES
+                </div>
+            </a>    
+        </div>
+
+        </div>
+
+    </div>
+
     <div class="card col-sm-12 fundoPrincipal">
         <div class="row espacoLinha espacoLinhaCima">
             <div class="col-sm-2">
@@ -84,7 +119,7 @@
     </div>
     <div class="container">
         <div class="card col-sm-12 fundo2 espacoLinha espacoLinhaCima">
-            <div class="row">
+            <div class="row" id="experiencia">
                 <div class="col-sm-1">
                     <!-- vazio -->
                 </div>
@@ -108,7 +143,6 @@
                                             <a class="corLetras" href="https://www.cronapp.io/" target="_blank"> cronapp</a>.
                                             <br> Empresa <a class="corLetras" href="https://techne.com.br/" target="_blank">Techne</a>.
                                             <br>nov-2019.
-
                                         </div>
                                     </div>
                                 </div>
@@ -132,14 +166,14 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="projetos">
                 <div class="col-sm-1">
                     <!-- vazio -->
                 </div>
                 <div class="col-sm-10">
                     <div class="espacoLinhaCima card" data-aos="fade-left">
                         <div class="card-body">
-                            <h5 class="card-title">Projetos</h5>
+                            <h5 class="card-title" >Projetos</h5>
                             <p class="card-text">Projetos realizados.</p>
                             <div class="accordion col-sm-12" id="accordionExample">
                                 <div class="card">
@@ -162,7 +196,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="habilidades">
                 <div class="col-sm-1">
                     <!-- vazio -->
                 </div>

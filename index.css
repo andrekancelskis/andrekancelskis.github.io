@@ -75,7 +75,6 @@ body{
 }
 .fundoPrincipal{
     background-color: rgb(211, 211, 211 , 0.5);
- 
     z-index: 1;
 }
 .fundo2{
@@ -172,4 +171,43 @@ body{
 }
 .fa-search-plus{
     font-size: 25px;
+}
+.menuDiferente{
+    background-color: black;
+    transition: 3s;
+}
+.removerDecoracao{
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.removerDecoracao:hover{
+} 
+.mudaCorMenu2:hover{
+    background-color: white;
+    color: #000 !important;
+}
+
+.espacamentoMenuSecundario{
+    
+}
+.fundoMenuSecundario{
+    background-color: #142C37 ;
+
+}
+.marginMenu2{
+    height: 50px;
+}
+.corLetraMenu2{
+    color: white !important;
+}
+.divTeste{
+    color: white;
+    padding:  5px 4px 5px 4px;
+}
+a .divTeste:hover {
+    color: #142C37;
+    background-color: white;
 }

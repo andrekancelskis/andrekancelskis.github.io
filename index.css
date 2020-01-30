@@ -211,3 +211,11 @@ a .divTeste:hover {
     color: #142C37;
     background-color: white;
 }
+.contcont{
+    margin: 10px;
+}   
+.contcont2{
+    margin-top: 60px;
+    padding: 3px;
+    background-color: #142C37;
+}   
